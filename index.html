@@ -20,13 +20,101 @@
     <!------------------------------>
     <!-- Stuff for body goes here -->
 
+    <!-- Start of TopNavBar -->
+    <nav class="navbar navbar-expand-md bg-dark" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="Hiker's Page" href="#">
+                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%2Fid%2FOIP.bYdS8LOSGtv2KURLmY0VsAHaHa%3Fpid%3DApi&f=1&ipt=dde457f857e929c963d9963a86ce6a6fad841c0c7fa516f841133740a736d713&ipo=images" height="36">
+                
+                Hiker's App
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link active" aria-current="page" href="#">Favourited</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            My account
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">My hikes</a></li>
+                            <li><a class="dropdown-item" href="#">Settings</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- End of top navbar -->
+
+
+    <!-- Hero section starts -->
+    <div class="px-4 py-5 text-center bg-success "> <img class="d-block mx-auto mb-4"
+            src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%2Fid%2FOIP.bYdS8LOSGtv2KURLmY0VsAHaHa%3Fpid%3DApi&f=1&ipt=dde457f857e929c963d9963a86ce6a6fad841c0c7fa516f841133740a736d713&ipo=images" alt="" width="72" height="57">
+        <h1 class="display-5 fw-bold text-body-emphasis">Welcome to the Hiking app!</h1>
+        <div class="col-lg-6 mx-auto">
+            <p class=" text-white mb-4 " >Lorem ipsum dolor sit amet consectetur.</p>
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center"> 
+                    <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Read More</button> 
+                    <button type="button" class="btn btn-outline-primary text-white btn-lg px-4">Explore</button> </div>
+        </div>
+    </div>
+    <!-- Hero section ends -->
+
+
+    <!-- Card Section starts -->
+    <h2 class = "my-2 mx-4"> Popular Hikes</h2>
+    <div class="card-group mx-5">
+        <div class="card"> 
+            <img src="/images/hike1.jpg" class="card-img-top" alt="">
+            <div class="card-body">
+                <h5 class="card-title">Mountain Hike</h5>
+                <p class="card-text">First Option</p>
+                <p class="card-text"><small class="text-body-secondary">Last Updated 5 Minutes ago</small></p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="/images/hike2.jpg" class="card-img-top" alt="">
+            <div class="card-body">
+                <h5 class="card-title">Mountain Hike</h5>
+                <p class="card-text">First Option</p>
+                <p class="card-text"><small class="text-body-secondary">Last Updated 5 Minutes ago</small></p>
+            </div>
+        </div>
+        
+        <div class="card">
+            <img src="/images/hike3.jpg" class="card-img-top" alt="">
+            <div class="card-body">
+                <h5 class="card-title">Mountain Hike</h5>
+                <p class="card-text">First Option</p>
+                <p class="card-text"><small class="text-body-secondary">Last Updated 5 Minutes ago</small></p>
+            </div>
+        </div>
+    </div>
+    
+
+
 
     <!---------------------------------------------->
     <!-- Your own JavaScript functions go here    -->
     <!---------------------------------------------->
 
     <!-- Link to scripts of your own -->
-    <!-- <script type="module" src="./src/main.js"></script> -->
+    <script type="module" src="./src/main.js"></script>
 
 </body>
 
